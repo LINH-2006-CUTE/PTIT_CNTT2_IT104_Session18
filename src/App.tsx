@@ -1,33 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Bai1 from "./components/Bai1";
+import Bai2 from "./components/Bai2";
+
+import Bai3 from "./components/Bai3";
+import Bai4 from "./components/Bai4";
+import Bai5 from "./components/Bai5";
+import Bai6 from "./components/Bai6";
+import Bai7 from "./components/Bai7";
+import Bai8 from "./components/Bai8";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+     <Bai1/>
+     <Bai2/>
+     <Bai3/>
+     <Bai4/>
+     <Bai5/>
+     <Bai6/>
+     <Bai7/>
+     <Bai8/>
     </>
   )
 }
