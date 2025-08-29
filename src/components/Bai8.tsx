@@ -18,10 +18,10 @@ export default function TodoList() {
 
   function addTodo(event) {
     event.preventDefault();
-    if (!input) return;  // Kiểm tra input không rỗng, không loại bỏ khoảng trắng
+    if (!input) return;  // Kiểm tra input không rỗng
 
     const newTodo = {
-      id: todos.length + 1, // id tự tăng đơn giản
+      id: todos.length + 1, // id tự tăng 
       content: input,
     };
 
